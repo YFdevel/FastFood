@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+<div class="top-wrapper">
+    <header class="header">
+        <div class="header__wrapper container">
+            <button class=" header__button btn-cart" type="button">Корзина</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__wrapper container">
+
+            <div class="products ">
+                <form action="#" class="form">
+                    <fieldset class="form__field">
+                        <legend class="form__legend">Размер гамбургера</legend>
+                        <label for="big">Большой</label>
+                        <input class="form__radio choose" type="radio" name="size-name" value="big" id="big"/>
+                        <label for="small">Маленький</label>
+                        <input class="form__radio choose" type="radio" name="size-name" value="small" id="small"/>
+                    </fieldset>
+                    <fieldset class="form__field">
+                        <legend class="form__legend">Начинка</legend>
+                        <label for="cheese">С сыром</label>
+                        <input class="form__check choose" type="checkbox" name="stuffing-name" value="cheese"
+                               id="cheese"/>
+                        <label for="salad">С салатом</label>
+                        <input class="form__check choose" type="checkbox" name="stuffing-name" value="salad"
+                               id="salad"/>
+                        <label for="potato">С картофелем</label>
+                        <input class="form__check choose" type="checkbox" name="stuffing-name" value="potato"
+                               id="potato"/>
+                    </fieldset>
+                    <fieldset class="form__field">
+                        <legend class="form__legend">Чем заправить</legend>
+                        <label for="spices">Приправы</label>
+                        <input class="form__check choose toppings" type="checkbox" name="topping-name" value="spices"
+                               id="spices"/>
+                        <label for="mayonnaise">Майонез</label>
+                        <input class="form__check choose toppings" type="checkbox" name="topping-name"
+                               value="mayonnaise" id="mayonnaise"/>
+                    </fieldset>
+                    <button class="form__button" id='btn' type="button">
+                        <span>Заказать</span>
+                    </button>
+                </form>
+            </div>
+            <div class="description"></div>
+            <div class="price-caloricity">
+            </div>
+
+        </div>
+
+    </main>
+</div>
+<footer class="footer"></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
