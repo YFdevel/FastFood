@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 80%;
+    }
+
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description, .price-caloricity {
+        width: 100%;
+        word-wrap: break-word;
+    }
+}
